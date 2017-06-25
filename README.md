@@ -1,5 +1,7 @@
 # mpktgen
-pktgen wrapper using multi-core.
+`mpktgen` is lightweight packet generator.
 
-The pktgen kernel module is useful but work at single core.
-This wrapper can use multicore.
+# usage
+Usage: bash mpktgen.sh -i IFACE -p DST_PORT -c USE_CORES DST_IP
+example: bash mpktgen.sh -i eth0 -p 5000 -c 4 192.168.0.100
+stop: Ctrl + c
