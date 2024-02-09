@@ -1,5 +1,5 @@
 # mpktgen
-`mpktgen` is lightweight packet generator.
+`mpktgen` is a lightweight packet generator.
 
 # usage
 Usage: bash mpktgen.sh -i IFACE -p DST_PORT -c USE_CORES DST_IP
